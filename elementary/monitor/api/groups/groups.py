@@ -15,6 +15,7 @@ from elementary.monitor.api.models.schema import (
     NormalizedExposureSchema,
     NormalizedModelSchema,
     NormalizedSeedSchema,
+    NormalizedSnapshotSchema,
     NormalizedSourceSchema,
 )
 from elementary.monitor.fetchers.tests.schema import NormalizedTestSchema
@@ -30,6 +31,7 @@ GROUPABLE_ARTIFACT = Union[
     NormalizedExposureSchema,
     NormalizedTestSchema,
     NormalizedSeedSchema,
+    NormalizedSnapshotSchema,
 ]
 
 
